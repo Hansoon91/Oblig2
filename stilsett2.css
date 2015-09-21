@@ -4,7 +4,7 @@ nav ul li{
 	list-style: none;
 	font-family: calibri;
 	position: absolute;
-	display: list-item;
+	display: inline;
 	padding: 1cm 2cm 1cm 2cm;
 	
 }
