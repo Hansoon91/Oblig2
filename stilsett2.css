@@ -1,0 +1,15 @@
+nav ul li{
+
+	margin-left: 50%;
+	list-style: none;
+	font-family: calibri;
+	position: absolute;
+	display: list-item;
+	padding: 1cm 2cm 1cm 2cm;
+	
+}
+nav ul{
+	
+	
+	margin-left: 30px;
+}
