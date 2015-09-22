@@ -1,15 +1,68 @@
-nav ul li{
-
-	margin-left: 50%;
-	list-style: none;
-	font-family: calibri;
-	position: absolute;
+nav {
+	clear: both;
+	text-align:left;
 	display: inline;
-	padding: 1cm 2cm 1cm 2cm;
+	
+		
+}
+
+nav ul li {
+	
+	font-family: calibri;
+	padding: 1px;
+	margin: 30px;
+	display: inline;
+	font-size: 25px;
+	position: relative;
+	display: inline-table;
+	
 	
 }
 nav ul{
-	
-	
+	border: 5px solid #E8E8E8;
+	background-color:#E8E8E8;
 	margin-left: 30px;
+	margin-top: 30;
+	padding: 1px;
+	display:;
 }
+aside {
+	border: 1px solid #E8E8E8;
+	background-color: #E8E8E8;
+	font-family: calibri;
+	padding: 40px;
+	float: right;
+	display: inline;
+	list-style-image: url("hundepote.png");
+	font-size: 20px;
+	
+	
+	
+	
+}
+nav ul li:hover ul li {
+		background-color: black;
+		color: white;
+		display: block;
+		border: 1px soild black;
+		padding: 1px;	
+		float: none;
+		width: 110px;
+	
+}
+
+
+nav ul li ul li {
+
+	
+	display: none;	
+	padding: 1px;
+	margin: 1px;
+	
+	
+}
+
+
+
+
+
