@@ -1,30 +1,30 @@
+body{
+	margin: 100px;
+}
 nav {
 	clear: both;
 	text-align:left;
 	display: inline;
-	
-		
+	margin: 100px;
 }
 
 nav ul li {
-	
 	font-family: calibri;
 	padding: 1px;
 	margin: 30px;
 	display: inline;
 	font-size: 25px;
-	position: relative;
+	position: abs;
 	display: inline-table;
-	
-	
 }
 nav ul{
-	border: 5px solid #E8E8E8;
+	border: 5px #E8E8E8;
 	background-color:#E8E8E8;
 	margin-left: 30px;
-	margin-top: 30;
+	margin: 1px;
 	padding: 1px;
-	display:;
+	position: relativ;
+	display: block;
 }
 aside {
 	border: 1px solid #E8E8E8;
@@ -35,33 +35,45 @@ aside {
 	display: inline;
 	list-style-image: url("hundepote.png");
 	font-size: 20px;
-	
-	
-	
-	
+	margin-top: -200px;
+	margin-right: 20px;
 }
 nav ul li:hover ul li {
-		background-color: black;
-		color: white;
-		display: block;
-		border: 1px soild black;
-		padding: 1px;	
-		float: none;
-		width: 110px;
-	
+	background-color: black;
+	color: white;
+	display: block;
+	border: 10px soild black;
+	padding: 10px;	
+	float: none;
+	width: 110px;
 }
-
-
 nav ul li ul li {
-
-	
+	position: absolute;
 	display: none;	
-	padding: 1px;
-	margin: 1px;
-	
-	
+	padding: 0 auto;
+	margin: 0 auto;
 }
 
+
+#forside{
+	
+	margin-left: 20%; 
+ }
+ #logo{
+	 
+	 margin-bottom: -300px;
+ }
+ #frakt{
+	 margin-left: 15%
+	 
+ }
+ h1{
+	 
+	 font-family: calibri;
+ }
+ p{
+	 font-family: calibri;
+ }
 
 
 
