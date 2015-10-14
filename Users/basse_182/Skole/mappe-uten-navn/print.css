@@ -1,1 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+.crop {
+    float: right;
+}
+
+.crop img {
+    width: 70px;
+    height: 70px;
+}
+
+h1 {
+	text-align: center;
+	font-family: inherit;
+    color: black;
+	font-size: 40px;
+	height: 20px;
+	
+}
+
+h4 {
+	text-align: center;
+	font-size: 30px;
+}
+
+footer {
+	font-size: 15px;
+	width: 750px;
+	background-color: #F0F0F0 
+}
 
