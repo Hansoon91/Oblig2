@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Katt</title>
-    <link rel="stylesheet" href="katt.css">
+    <link rel="shortcut icon" href="cat.png">
+    <link rel="stylesheet" href="katt.css" media="screen">
+    <link rel="stylesheet" href="print.css" media="print">
 </head>
-<body> 
-    <h2> Vi har et stort utvalg av forskjellige katteutstyr</h2>
+<body>
+    <div class="crop"><img src="maxdyrlogo.jpg"></div>
+    <div class="font1"><h1> Vi har et stort utvalg av forskjellige katteutstyr</h1></div>
     <nav>
-        <ul>
-            <li><a href="#hjem"> Hjem </a></li>
-            <li><a href="#2lekeutstyr"> Hund </a></li>
-            <li><a href="#3vann og matskåler"> Katt </a></li>
+        <ul class="katter">
+            <li><a href="#1"> Hjem </a></li>
+            <li><a href="#2"> Hund </a></li>
+            <li><a href="#3"> Katt </a></li>
         </ul>
     </nav>
-	<div>
-		<img src="kattefight.jpg" style="width:750px;height:250px;">
-	</div>
+	<div class="kattefight"></div>
     <aside>
-        <article>   
+        <article>
             <h4> Katteutstyr </h4>
-			 <p> Her finner du et utvalg leker til katten din ! </p>
-                <div id="katter">
-                    <img src="mitt_bilde.jpeg" style="width:200px;height:150px;" ><img src="kjøp-nå.jpg"                 style="width:150px;height:50px;">
-                    <img src="katte-leker.jpg" style="width:200px;height:150px;"><img src="kjøp-nå.jpg"                 style="width:150px;height:50px;">
-                    <img src="katte-tunnel.jpg" style="width:200px;height:150px;"><img src="kjøp-nå.jpg"                 style="width:150px;height:50px;"> 
-                    <img src="transport.jpg" style="width:200px;height:150px;"><img src="kjøp-nå.jpg"                 style="width:150px;height:50px;"> 
-                </div>
+			 <marquee> Her finner du et utvalg leker til katten din ! </marquee>
+                <section>
+                    <img src="mitt_bilde.jpeg" style="width:200px;height:150px;"><img src="kjøp-nå.jpg"                                                       style="width:150px;height:50px;">
+                    <img src="katte-leker.jpg" style="width:200px;height:150px;"><img src="kjøp-nå.jpg"                                                       style="width:150px;height:50px;">
+                    <img src="katte-tunnel.jpg" style="width:200px;height:150px;"><img src="kjøp-nå.jpg"                                                     style="width:150px;height:50px;"> 
+                    <img src="transport.jpg" style="width:200px;height:150px;"><img src="kjøp-nå.jpg"                                                         style="width:150px;height:50px;"> 
+                </section>
          </article>
     </aside>
     <footer>
-        <p> Takk for handelen </p>
+        <p> Takk for handelen</p>
 		 <p>Copyright: Pet max </p>
 		 <p>kontakt informasjon: <a href="mailto:someone@example.com">
 			Maxdyr@kundeservice.no</a></p>
