@@ -1,0 +1,85 @@
+html {
+    background-color: grey; 
+	display: center; 
+    -webkit-print-color-adjust: exact;
+}
+
+body {
+    margin: 0 auto;
+    padding: 50px;
+    max-width: 750px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+	background-color: white; 
+	border-radius: 50px;
+}
+
+.crop {
+    float: right;
+}
+
+.crop img {
+    width: 70px;
+    height: 70px;
+}
+
+div.kattefight {
+    width: 750px;
+    height: 150px;
+    background-image: url("kattefight2.jpg")
+}
+
+@font-face {
+    font-family: "orange juice 2.0";
+    src: url("orange juice 2.0.ttf");
+}
+
+h1 {
+	text-align: center;
+	font-family: "orange juice 2.0";
+    color: red;
+	font-size: 40px;
+	height: 80px;
+	
+}
+
+.katter {
+    font-family: cursive;
+}
+
+a {
+    display: block;
+    width: 250px; 
+    background-color: bisque;
+    border-radius: 40px;
+}
+
+li {
+    float: left;
+	text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav {
+    display: center;
+	height: 40px;
+    font-size: 30px;
+}
+
+h4 {
+	text-align: center;
+	font-size: 30px;
+	
+}
+
+footer {
+	font-size: 15px;
+	width: 750px;
+	background-color: #F0F0F0 
+}
